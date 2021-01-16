@@ -71,8 +71,7 @@ class converter:
             if(st.button("Show")): # button to show result
                 with st.spinner('Calculating.....'):
                     output=self.c.convert(c1,c2,amount) # calculating conversion
-                st.write("First currency     :",option1)
-                st.write("Second currency :",option2)
+                st.write("Selected conversion : ",option1," to ",option2)
                 st.write(amount," ",option1," = ",output," ",option2) # displaying result
                         
     
