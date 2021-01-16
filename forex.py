@@ -52,7 +52,7 @@ class converter:
         exp= st.beta_expander("About") # 'About' section contains details about the project
         exp.write("This web application was developed using [forex-python](https://forex-python.readthedocs.io/en/latest/index.html) and [streamlit](https://docs.streamlit.io/en/stable/index.html) web application framework.")
         exp.write(" This project was done as a part of Msc-Problem solving with python course.") 
-        exp.write("You can check out the work at [github]()")
+        exp.write("You can check out the work at [github](https://github.com/Aravind-krishnan-g/MSc-20-311-2102-Problem-Solving-With-Python-Currency-Converter)")
         
         option=st.selectbox('Select an option',['Get forex rate','Convert currency']) # user can select either of 2 options
         option1 = st.selectbox('Select a currency',list(self.dict_of_currencies.keys())) # selecting 1st currency
